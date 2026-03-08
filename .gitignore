@@ -1,0 +1,17 @@
+# Environment and secrets
+app/.env
+app/credentials.json
+app/token.json
+
+# Python
+app/venv/
+__pycache__/
+*.pyc
+
+# Database volume
+pgdata/
+
+# OS files
+.DS_Store
+*.save
+app/test_calendar.py
